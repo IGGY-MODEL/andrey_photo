@@ -1,0 +1,17 @@
+{
+  "name": "andrey_photo",
+  "version": "0.0.1",
+  "description": "photographer website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGGY-MODEL/andrey_photo.git"
+  },
+  "author": "yauheni sauchanka",
+  "license": "ISC",
+  "homepage": "https://github.com/IGGY-MODEL/andrey_photo#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "bootstrap-material-design": "0.5.10"
+  }
+}
