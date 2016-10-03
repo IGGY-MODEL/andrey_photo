@@ -9,9 +9,10 @@
   "author": "yauheni sauchanka",
   "license": "ISC",
   "homepage": "https://github.com/IGGY-MODEL/andrey_photo#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "bootstrap-material-design": "0.5.10"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "swiper": "3.3.1"
   }
 }
