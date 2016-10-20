@@ -4,8 +4,8 @@ html, body {
 }
 body {
   font-size: 16px;
-  /*font-family: 'roboto', sans-serif;*/
-  font-family: 'Indie Flower', cursive;
+  font-family: 'roboto_light', sans-serif;
+  /*font-family: 'Indie Flower', cursive;*/
 }
 
 #first-screen {
@@ -32,6 +32,7 @@ body {
   line-height: 50px;
   padding: 0;
   margin: 0;
+  margin-top: 25px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -82,10 +83,131 @@ ul.nav-menu li.nav-item.accent-link a.nav-link {
   font-size: 24px;
 }
 
-  /*ABOUT ME*/
+
+.section {
+  padding: 30px;
+  padding-bottom: 60px;
+  /*margin-bottom: 50px;*/
+}
 
 
+/*ABOUT ME*/
 section#aboutme {
   width: 100%;
-  height: 700px;
+  /*height: 700px;*/
+}
+.section-title {
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section-title h2 {
+  display: inline-block;
+  border-bottom: 2px solid #f7acd3;
+  padding: 10px;
+}
+
+.me-avatar {
+  max-width: 75%;
+  max-height: 75%;
+}
+.me-text {
+  margin-top: 50px;
+}
+
+
+section#social {
+  background: #f7acd3;
+  padding: 30px;
+}
+
+.social-icon a {
+  display: inline-block;
+  /*font-size: 42px;*/
+  color: #ffffff;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.social-icon a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card {
+  display: inline-block;
+  width: 100%;
+  min-height: 300px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.card-title {
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 50px;
+  /*color: #f7acd3;*/
+}
+.card-body {
+  margin-bottom: 50px;
+  height: 200px;
+}
+.card-body ul li {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+.card-price {
+  font-family: 'roboto_black';
+  padding: 10px;
+}
+.card-price .coins {
+  font-size: 24px;
+}
+.card:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.card.active {
+  background: #f7acd3;
+  color: #fff;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.card.active .card-body ul li {
+  border-bottom: 1px solid #fff;
+}
+
+section#discount {
+  /*border: 5px solid #f7acd3;*/
+}
+.discount-card {
+  display: block;
+  border: 2px solid #f7acd3;
+}
+.discount-card.active {
+  background: #f7acd3;
+  color: #fff;
+}
+
+.discount-amount {
+  font-size: 50px;
+  font-family: 'roboto_black';
 }
